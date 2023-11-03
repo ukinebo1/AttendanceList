@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    background-color: rgb(103, 103, 219);
+    color: white;
+    padding: 10px;
+}
+
+#attendance-form {
+    margin-top: 20px;
+}
+
+input, button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#attendance-list {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px;
+}
