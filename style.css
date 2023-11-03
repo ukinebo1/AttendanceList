@@ -1,21 +1,36 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
-    background-color: rgb(103, 103, 219);
+    background-color: rgb(78, 78, 177);
     color: white;
     padding: 10px;
+    margin: 0;
 }
 
 #attendance-form {
     margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-input, button {
+input {
     margin: 5px;
     padding: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #attendance-list {
@@ -29,4 +44,11 @@ ul {
 
 li {
     margin: 5px;
+}
+
+@media screen and (max-width: 720px) {
+    #attendance-form{
+        flex-direction: column;
+    }
+    
 }
